@@ -16,5 +16,13 @@ window.onload = () => {
         mobile_menu.classList.toggle('is-active');
         document.body.classList.toggle('no-scroll');
     });
+
+    window.addEventListener('orientationchange', function () {
+ 
+        menu_btn.classList.remove('is-active');
+        mobile_menu.classList.remove('is-active');
+        overlay.classList.remove('active');
+        document.body.classList.remove('no-scroll');
+      });
 };
 
