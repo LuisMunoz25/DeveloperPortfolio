@@ -1,0 +1,242 @@
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1920px)  { 
+
+    .hamburger {
+        display: none;
+    }
+
+    .tablet-description {
+        display: none;
+    }
+
+    .tablet-note {
+        display: none;
+    }
+
+    .mobile-intro-h1, .mobile-intro-text, .mobile-note {
+        display: none;
+    }
+
+    .mobile-description, .mobile-col {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: block;
+        top: 20%;
+    }
+
+    .main-menu, .button-1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    body {
+        margin: 0 5px;
+        padding: 30px 5px 0px;
+        box-sizing: border-box;
+        /*border: 1px solid white;
+        color: white;*/
+    }
+
+    /*.mobile-description, .mobile-col {
+        display: none;
+    }*/
+    .intro-h1 {
+        font-size: 45px;
+        letter-spacing: 1.5px;
+        font-family: prata, sans-serif;
+        color: #FFFFFF;
+    }
+    
+    .intro-text {
+        font-family: Arial, Helvetica, sans-serif;
+        color:  #919599;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    
+.company-logos {
+        width: 612px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px 80px;
+    }
+    
+    
+    .cols {
+        display: block;
+        width: 612px;
+    }
+    
+    .cols img {
+        width: 100%;
+    }
+
+    .description {
+        display: none;
+    }
+    
+    .tablet-description{
+        display: block;
+    }
+    .note {
+        display: none;
+    }
+
+    .tablet-title-h2 {
+        text-decoration: none;
+        font-family: prata, sans-serif;
+        font-size: 2rem;
+        color: #fff;
+    }
+    
+    .tablet-note {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.90rem;
+        text-align: justify;
+        color: #919599;
+        text-align: justify;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        padding: 0 50px;
+    }
+
+    /*.mobile-intro-h1, .mobile-intro-text {
+        display: none;
+    }*/
+}
+
+@media only screen and (min-width: 200px) and (max-width: 550px){
+    body {
+        margin: 0 auto;
+        padding: 30px 5px 0px;
+        box-sizing: border-box;
+        /*border: 1px solid white;
+        color: white;*/
+    }
+
+    .intro-h1, .intro-text {
+        display: none;
+    }
+    
+    
+    .main-menu, .button-1 {
+        display: none;
+    }
+
+
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 25px;
+        cursor: pointer;
+    
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+    }
+
+    .mobile-intro-h1 {
+        display: block;
+        font-size: 30px;
+        letter-spacing: 0.5px;
+        font-family: prata, sans-serif;
+        color: #FFFFFF;
+    }
+    
+    .mobile-intro-text {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        color:  #919599;
+        font-size: 0.90rem;
+        letter-spacing: 1.5px;
+        line-height: 1.3;
+    }
+    
+    .company-logos {
+        width: 320px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px 20px;
+    }
+
+    .cols {
+        display: block;
+        width: 350px;
+        overflow: hidden;
+    }
+    
+    .cols img {
+        width: 115%;
+    }
+
+    .description, .tablet-description {
+        display: none;
+    }
+
+    .mobile-description {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.90rem;
+        color:  #919599;
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+        padding: 10px 0px;
+    }
+
+    .note, .tablet-note {
+        display: none;
+    }
+
+    .mobile-title-h2 {
+        text-decoration: none;
+        font-family: prata, sans-serif;
+        font-size: 1.8rem;
+        color: #fff;
+    }
+    
+    .mobile-note {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.90rem;
+        text-align: justify;
+        color: #919599;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+        padding: 0 50px;
+    }
+
+    .tablet-col {
+        display: none;
+    }
+
+    .mobile-col{
+        display: block;
+        font-size: 0.90rem;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+    }
+    .social-media {
+         margin:0;
+        display: inline-flex;
+        gap: 15px;
+    }
+}
